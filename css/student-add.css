@@ -1,0 +1,64 @@
+#box-img div > *{
+    display: inline;
+}
+
+label {
+    /* font-size: 8px; */
+}
+
+.container-box-images{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-img-box {
+    position: relative;
+    width: 250px;
+    height: 250px; 
+}
+
+.user-img-box .user-img-icon{
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: #2c77f4;
+    color: white;
+    border-radius: 50%;    
+    transition: all 0.4s ease;
+}
+
+.user-img-box .user-img-icon:hover {
+    cursor: pointer;
+}
+
+.user-img-box .user-img-icon i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box-img-photo img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%; 
+}
+
+.user-img-box .user-img-icon:hover{
+    background-color: rgb(25, 71, 155);
+}
+
+@media(max-width:500px){
+    .user-img-box{
+        width: 150px;
+        height: 150px;
+    }
+    .user-img-box .user-img-icon{
+        top: 7px;
+        right: 5px;
+    }
+}

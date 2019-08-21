@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Admin Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap Css CDN-->
+  <!-- 4.1.3 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="./fonts/themify-icons.css">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/home.css" />
+</head>
+
+<body>
+
+  <nav class="sidebar" id="sidebar">
+    <ul class="nav">
+      <li class="nav-profile">
+        <div class="user-wrapper">
+          <div class="profile-image">
+            <img src="images/indian-black.svg" alt="profile image">
+          </div>
+          <div class="text-wrapper">
+            <p class="profile-name"> Taekwondo Paquime</p>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="menu-icon ti-home" style="color:#2196f3;"></i>
+          <span class="menu-title">Inicio</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="menu-icon ti-user" style="color:#2b3c9c;"></i>
+          <span class="menu-title">Alumnos</span>
+        </a>
+      </li>
+      <li class="nav-item here">
+        <a class="nav-link" href="index.html">
+          <i class="menu-icon fa ti-calendar" style="color:#48c098;"></i>
+          <span class="menu-title">Eventos</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/charts/chartjs.html">
+          <i class="menu-icon fa fa-chart-line" style="color:#9c27b0;"></i>
+          <span class="menu-title">Charts</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/tables/basic-table.html">
+          <i class="menu-icon ti-view-list-alt" style="color:#ff9800;"></i>
+          <span class="menu-title">Tables</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="content-header">
+    <ul class="nav-l">
+      <a id="sidebarCollapse"><i class="fa fa-bars"></i></a>
+    </ul>
+    <ul class="nav-r">
+      <a><i class="fa fa-bell"></i> <span class="badge">3</span></a>
+      <a><i class="fa fa-cog"></i></a>
+      <img src="images/admin/avatarWolf.jpg">
+      <p class="user-name">John Wick</p>
+    </ul>
+  </div>
+
+  <div id="content">
+    <div class="content-wrapper">
+      <div class="container-fluid">
+        <!-- cards -->
+        <div class="row grid-margin cards">
+          <div class="col-md-4">
+            <div class="card bg-gray">
+              <div class="card-body">
+                <img src="images/icons/circle.svg" class="card-img-absolute" alt="circle-image">
+                <h4 class="font-weight-normal mb-3">Students
+                  <i class="fa fa-users mdi-24px float-right"></i>
+                </h4>
+                <h2># 156</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-darkblue">
+              <div class="card-body">
+                <img src="images/icons/circle.svg" class="card-img-absolute" alt="circle-image">
+                <h4 class="font-weight-normal mb-3">Tournaments
+                  <i class="fa fa-trophy mdi-24px float-right"></i>
+                </h4>
+                <h2># 4</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card bg-dark">
+              <div class="card-body">
+                <img src="images/icons/circle.svg" class="card-img-absolute" alt="circle-image">
+                <h4 class="font-weight-normal mb-3">To Pay
+                  <i class="ti-credit-card mdi-24px float-right"></i>
+                </h4>
+                <h2># 9</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center grid-margin">
+          <div class="col-md-12 col-lg-8">
+            <div class="profile-box-bg">
+              <img src="./images/fulls/04.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-8">
+            <div class="profile-box">
+              <img class="profile-box-img" src="./images/admin/avatarWolf.jpg" alt="">
+              <div class="row">
+
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div class="bg-icons">
+                    <p><img src="images/icons/settings.svg" alt=""> Admintrator</p>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 profile-box-name">
+                  <h1>Mauricio Estrada</h1>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div class="bg-icons">
+                    <p><img src="images/icons/medal2.svg" alt=""> Tercer Dan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-10 grid-margin">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">To Pay Students</h4>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>
+                          Name
+                        </th>
+                        <th>
+                          Date
+                        </th>
+                        <th>
+                          Status
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img src="./images/admin/avatarWolf.jpg" class="mr-2" alt="image">
+                          Stella Johnson
+                        </td>
+                        <td>
+                          Dec 5, 2017
+                        </td>
+                        <td>
+                          <div class="pay-box pay-success">Suspended</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="./images/admin/avatarWolf.jpg" class="mr-2" alt="image">
+                          Stella Johnson
+                        </td>
+                        <td>
+                          Dec 5, 2017
+                        </td>
+                        <td>
+                          <div class="pay-box pay-danger">Suspended</div>
+                        </td>
+                      </tr>
+                      <td>
+                        <img src="./images/admin/avatarWolf.jpg" class="mr-2" alt="image">
+                        Stella Johnson
+                      </td>
+                      <td>
+                        Dec 5, 2017
+                      </td>
+                      <td>
+                        <div class="pay-box pay-warning">Suspended</div>
+                      </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="./images/admin/avatarWolf.jpg" class="mr-2" alt="image">
+                          John Doe
+                        </td>
+                        <td>
+                          Dec 5, 2017
+                        </td>
+                        <td>
+                          <div class="pay-box pay-warning">Pay day</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div> <!-- container fluid-->
+    </div> <!-- content-wrwapper -->
+  </div> <!-- content-->
+
+  <!-- JQuery CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap JS CDN-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <!-- tippy -->
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@4"></script>
+  <!-- card js -->
+  <script src="js/card.js"></script>
+  <!-- Code -->
+  <script src="js/code.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="col-md-12 col-lg-8">
+  <div class="profile-box">
+    <img class="profile-box-img" src="./images/admin/avatarWolf.jpg" alt="">
+    <div class="bg-icons">
+      <p><img src="images/icons/settings.svg" alt=""> Admintrator</p>
+    </div>
+
+    <h1 class="profile-box-name">Mauricio Estrada</h1>
+    <div class="bg-icons">
+      <p><img src="images/icons/medal2.svg" alt=""> Tercer Dan</p>
+    </div>
+  </div>
+</div> -->

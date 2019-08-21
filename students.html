@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Css CDN-->
+    <!-- 4.1.3 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="./fonts/themify-icons.css">
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/students.css" />
+</head>
+
+<body>
+
+    <nav class="sidebar" id="sidebar">
+        <ul class="nav">
+            <li class="nav-profile">
+                <div class="user-wrapper">
+                    <div class="profile-image">
+                        <img src="images/indian-black.svg" alt="profile image">
+                    </div>
+                    <div class="text-wrapper">
+                        <p class="profile-name"> Taekwondo Paquime</p>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="menu-icon ti-home" style="color:#2196f3;"></i>
+                    <span class="menu-title">Inicio</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="menu-icon ti-user" style="color:#2b3c9c;"></i>
+                    <span class="menu-title">Alumnos</span>
+                </a>
+            </li>
+            <li class="nav-item here">
+                <a class="nav-link" href="index.html">
+                    <i class="menu-icon fa ti-calendar" style="color:#48c098;"></i>
+                    <span class="menu-title">Eventos</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/charts/chartjs.html">
+                    <i class="menu-icon fa fa-chart-line" style="color:#9c27b0;"></i>
+                    <span class="menu-title">Charts</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/tables/basic-table.html">
+                    <i class="menu-icon ti-view-list-alt" style="color:#ff9800;"></i>
+                    <span class="menu-title">Tables</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content-header">
+        <ul class="nav-l">
+            <a id="sidebarCollapse"><i class="fa fa-bars"></i></a>
+        </ul>
+        <ul class="nav-r">
+            <a><i class="fa fa-bell"></i> <span class="badge">3</span></a>
+            <a><i class="fa fa-cog"></i></a>
+            <img src="images/admin/avatarWolf.jpg">
+            <p class="user-name">John Wick</p>
+        </ul>
+    </div>
+
+
+    <div id="content">
+
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg">
+                        <div class="panel panel-container">
+                            <div class="input-group students-header">
+                                <h5>Students</h5>
+                                <div class="col-md-5 col-sm-10 students-header-buttons">
+                                    <button class="btn btn-outline-dark"><i class="fa fa-plus"></i> Add
+                                        Student</button>
+                                    <input class="form-control py-2" type="search" placeholder="search"
+                                        id="example-search-input">
+                                    <span class="input-group-append">
+                                        <button class="btn btn-dark" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">Photo</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Phone</th>
+                                            <th scope="col">Current</th>
+                                            <th scope="col">Pay Date</th>
+                                            <th scope="col">Actions</th>
+                                            <th scope="col">Pay</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><img src="./images/admin/avatarWolf.jpg" alt="" width="70px"
+                                                    height="70px" style="border-radius:50%;"></td>
+                                            <td>Mark</td>
+                                            <td>White</td>
+                                            <td>(636) 123 45 67</td>
+                                            <td>
+                                                <div class="pay-box"><i class="fa fa-calendar-week"></i> 10-12-2019
+                                                </div>
+                                            </td>
+                                            <td class="td-flex">
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-bookmark"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-pencil"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-trash"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-credit-card"></i></button>
+                                            </td>
+                                            <td>
+                                                <div class="pay-box pay-success">Active</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="./images/admin/avatarWolf.jpg" alt="" width="70px"
+                                                    height="70px" style="border-radius:50%;"></td>
+                                            <td>Mark</td>
+                                            <td>White</td>
+                                            <td>(636) 123 45 67</td>
+                                            <td>
+                                                <div class="pay-box">
+                                                    <i class="fa fa-calendar-week"></i>
+                                                    <p>10-12-2019</p>
+                                                </div>
+                                            </td>
+                                            <td class="td-flex">
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-bookmark"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-pencil"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-trash"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-credit-card"></i></button>
+                                            </td>
+                                            <td>
+                                                <div class="pay-box pay-danger">Suspended</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="./images/admin/avatarWolf.jpg" alt="" width="70px"
+                                                    height="70px" style="border-radius:50%;"></td>
+                                            <td>Mark</td>
+                                            <td>White</td>
+                                            <td>(636) 123 45 67</td>
+                                            <td>
+                                                <div class="pay-box"><i class="fa fa-calendar-week"></i> 10-12-2019
+                                                </div>
+                                            </td>
+                                            <td class="td-flex">
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-bookmark"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-pencil"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-trash"></i></button>
+                                                <button type="button" class="btn box-icon"><i
+                                                        class="ti-credit-card"></i></button>
+                                            </td>
+                                            <td>
+                                                <div class="pay-box pay-warning">Pay day</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div> <!-- panel -->
+                    </div>
+                    <!--col-12 -->
+                </div> <!-- row table -->
+
+            </div> <!-- container fluid-->
+        </div> <!-- content-wrwapper -->
+    </div> <!-- content-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Pay membership <small style="color:#a7abc3;"> Fill the next fileds</small></h5>
+                    <hr>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-around align-items-center">
+                        <form class="col-sm-10 col-md-6 active" id="cardForm">
+
+                            <div class="form-group row justify-content-center">
+                                <div class="user-img-box">
+                                    <img src="./images/admin/avatarWolf.jpg" alt="" width="100px" height="100px"
+                                        style="border-radius:50%;">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" id="number" placeholder="Card number"
+                                        name="number">
+                                </div>
+
+                                <div class="col">
+                                    <input type="text" class="form-control" id="name" placeholder="Complete Name"
+                                        name="name">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col">
+                                    <input type="text" class="form-control" id="expiry" placeholder="MM/YY"
+                                        name="expiry">
+                                </div>
+
+                                <div class="col">
+                                    <input type="text" class="form-control" id="cvc" placeholder="CVC" name="cvc">
+                                </div>
+                            </div>
+
+                        </form>
+                        <div class="card-wrapper"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Pay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JQuery CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Bootstrap JS CDN-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <!-- tippy -->
+        <script src="https://unpkg.com/popper.js@1"></script>
+        <script src="https://unpkg.com/tippy.js@4"></script>
+        <!-- card js -->
+        <script src="js/card-pluggin.js"></script>
+        <script src="js/card.js"></script>
+        <!-- Code -->
+        <script src="js/code.js"></script>
+</body>
+
+</html>
