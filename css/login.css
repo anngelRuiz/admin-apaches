@@ -1,0 +1,128 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    background-color: #ffffff;/* f3f3f3 */    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #020202;
+}
+
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right top, #b3b3b3, #c5c5c5, #d8d6d7, #ebe9e9, #fffbfb); */
+    /* White - #B3B3B3 - #FFFBFB*/
+    /* Black #0D181F - #3D3D4E */
+    /* background-image: url('../images/bg.jpg');
+    background-size: 100%; */
+}
+
+.bg-opacity{
+    width: 100%;
+    height: 100%;
+    /* background-color: #0c0e13ee; */
+}
+
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+header h2{
+    text-align: center;
+
+    color: #3c5c8b;
+    font-weight: bold;
+}
+
+header .logo{    
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+header .logo img{    
+    width: 100%;
+    height: 100%;
+}
+
+main form{
+    width: 100%;
+}
+
+main form input, main form label{
+    display: block;
+    width: 100%;
+}
+
+main label {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+main form input {
+    padding: .8em;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+main form label {
+    float: left;   
+}
+
+main form .box-aux input[type=checkbox]{
+    float: left;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin:0;
+    margin-top: 2px;
+    margin-right: 5px;
+    
+    background-color: #6ccfcb;
+}
+
+main form .box-aux {
+    width: 100%;
+    margin:0 0 6% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main form .box-aux p{
+    display: block;
+    width: 45%;
+    color: #529cb9;
+}
+
+main .box-new a{
+    text-decoration: none;
+    color: #529cb9;
+    /* #6ccfcb     */
+}
+
+main form a{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #1a1e23;/* #2d4b77*/
+    padding: 0.5em 0em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+main .box-new{
+    text-align: center;
+    
+}
+

@@ -8,6 +8,25 @@
     /* margin-bottom: 1.5rem; */
 }
 
+.bg{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    /* background-image: linear-gradient(to right top, #b3b3b3, #c5c5c5, #d8d6d7, #ebe9e9, #fffbfb); */
+    /* White - #B3B3B3 - #FFFBFB*/
+    /* Black #0D181F - #3D3D4E */
+    /* background-image: url('../images/bg.jpg'); */
+    background-image: url('../images/fulls/04.jpg');
+    background-size: 100%;
+    background-position: 0ch;
+}
+
+.bg-opacity{
+    width: 100%;
+    height: 100%;
+    /* background-color: #0c0e13c7; */
+}
+
 .card-body img.card-img-absolute{
 position: absolute;
 top: 0;
